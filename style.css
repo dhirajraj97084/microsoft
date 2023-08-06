@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+ align-items: center;
+background:white;
+height: 95px;
+}
+.logo img{
+    height:52px;
+    margin-left: 79px;
+    padding: 23px;
+  
+}
+ul{
+    display: flex;
+    padding:8px;
+    align-items: center;
+    gap: 12px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: rgb(15, 13, 24);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+  }
+.cart{
+    height: 23px;
+    margin-bottom: -7px;
+}
+.left{
+    display: flex;
+    margin-left: 508px;
+    gap: 12px;
+    
+}
+#product{
+    padding: 6px;
+    border-radius: 8px;
+}
+input{
+    padding: 6px;
+    border-radius: 8px;
+}
+h4{
+    margin-right: -12px;
+}
+.hero{
+    background: #c8ecf1;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    background:rgb(54, 54, 234);
+    margin-top: 22px;
+padding: 8px;
+color: white;
+font-size: 14px;
+border-radius: 9px;
+}
+.hero_right img{
+    width: 361px;
+    height: 248px;
+  }
+  h2{
+    font-size: 37px;
+  }
+  h5{
+    margin-top: 22px;
+font-size: 17px;
+
+  }
+  .hero_left{
+    width: 35%;
+  }
+  .text{
+    position: relative;
+left: 139px;
+bottom: 29px;
+font-size: 16px;
+  }
+  .box1{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    gap: 78px;
+  }
+  .item{
+    text-align: center;
+  }
+  .a{
+    color: rgb(44, 17, 232);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+  }
+  .box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 56px;
+    gap: 10px;
+    margin-left: 25px;
+  }
+  .box2 img{
+    width: 300px;
+  }
+  .box2 section{
+    font-size: 27px;
+  }
+  .b,section{
+    margin-top:15px ;
+  }
+  .c{
+    margin-top:10px ;
+    color: rgb(44, 17, 232);
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .box3{
+    height:70vh;
+    width: 90vw;
+    background: rgb(209, 203, 203);
+    margin: auto;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 30px;
+    border-radius: 18px;
+  }
+  .d{
+    margin-top:15px ;
+    font-size: 18px;
+  }
+  .box3 img{
+    width: 32vw;
+    height: 40vh;
+    border-radius: 18px;
+  }
+  .box4{
+   
+    background:white;
+    margin-top: 18px;
+  
+  }
+  header{   
+    font-size: 35px;
+    position: relative;
+    top:115px;
+    left: 81px;
+  }
+  .inner_box4{
+    width: 90vw;
+    height:48vh;
+    margin: auto;
+    background: #f2a1a1;
+    position: relative;
+    top: 80px;
+    border-radius: 10px;
+  }
+  
